@@ -15,5 +15,5 @@ Local Port:  1080
 Protocol:  auth_aes128_md5 
 obfs:  tls1.2_ticket_auth_compatible 
 Encryption Method:  chacha20-ietf 
-
+Beck is a good man
 
