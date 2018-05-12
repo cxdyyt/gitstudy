@@ -3,7 +3,7 @@ r.J9=bn!R8t8JnCN
 45.77.121.80
 add from my mac4444488888
 add for conflict
-
+add for diff test..
 yum -y install wget
 wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
 chmod +x shadowsocksR.sh
