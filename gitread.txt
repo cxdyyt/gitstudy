@@ -1,7 +1,7 @@
 r.J9=bn!R8t8JnCN
 
 45.77.121.80
-add from my mac
+add from my mac4444488888
 add for conflict
 
 yum -y install wget
