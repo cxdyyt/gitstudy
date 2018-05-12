@@ -1,0 +1,47 @@
+r.J9=bn!R8t8JnCN
+
+45.77.121.80
+
+
+
+yum -y install wget
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
+chmod +x shadowsocksR.sh
+./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
+
+
+yum -y install wget
+wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/serverspeeder/master/serverspeeder-all.sh && bash serverspeeder-all.sh
+
+
+
+yum -y install wget
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+chmod +x bbr.sh
+./bbr.sh
+
+
+Your Server IP        :  45.63.89.2 
+Your Server Port      :  1987 
+Your Password         :  xytlf1987 
+Your Protocol         :  auth_sha1_v4 
+Your obfs             :  tls1.2_ticket_auth 
+Your Encryption Method:  aes-256-cfb 
+
+
+
+wget http://soft.paozailushang.com/vps/SR.sh && chmod +x SR.sh && ./SR.sh 2>&1 | tee ssr.log
+
+wget --no-check-certificate -O appex.sh http://soft.paozailushang.com/vps/appex.sh && chmod +x appex.sh && bash appex.sh install
+
+Congratulations, ShadowsocksR install completed!
+Server IP:  45.76.53.192 
+Server Port:  443 
+Password:  xytlf1987 
+Local IP:  127.0.0.1 
+Local Port:  1080 
+Protocol:  auth_aes128_md5 
+obfs:  tls1.2_ticket_auth_compatible 
+Encryption Method:  chacha20-ietf 
+
+
