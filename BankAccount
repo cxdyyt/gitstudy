@@ -1,124 +1,29 @@
 public interface BankAccount extends Serializable{
-    public long getAccountNumber();
+    long getAccountNumber();
 
-    public char getAccountType();
+    char getAccountType();
 
-    public BigDecimal getBalance();
+    BigDecimal getBalance();
 
-    public Date getCreatedDate();
+    Date getCreatedDate();
 
-    public Date getExpiredDate();
+    Date getExpiredDate();
 
-    public long getOriginalBranchId();
+    long getOriginalBranchId();
 
-    public long getOwnerIdCard();
+    long getOwnerIdCard();
 
-    public void setAccountNumber(long accountNumber);
+    void setAccountNumber(long accountNumber);
 
-    public void setAccountType(char accountType);
+    void setAccountType(char accountType);
 
-    public void setBalance(BigDecimal balance);
+    void setBalance(BigDecimal balance);
 
-    public void setCreatedDate(Date createdDate);
+    void setCreatedDate(Date createdDate);
 
-    public void setExpiredDate(Date expiredDate);
+    void setExpiredDate(Date expiredDate);
 
-    public void setOriginalBranchId(long originalBranchId);
+    void setOriginalBranchId(long originalBranchId);
 
-    public void setOwnerIdCard(long ownerIdCard);
-}
-
-public class CreditAccount implements BankAccount {
-    private static final long serialVersionUID = -5588051331748162386L;
-    /**
-     * Unique Card number.
-     */
-    long accountNumber;
-
-    /**
-     * The branch that create the card.
-     */
-    long originalBranchId;
-
-    /**
-     * The id card of the owner
-     */
-    long ownerIdCard;
-
-    /**
-     * Indicate the account type. For example, primary account, secondary account.
-     */
-    char accountType;
-
-    /**
-     * Balance.
-     */
-    BigDecimal balance;
-
-    /**
-     * Card created date
-     */
-    Date createdDate;
-
-    /**
-     * Card expired date
-     */
-    Date expiredDate;
-
-    public long getAccountNumber() {
-        return accountNumber;
-    }
-
-    public char getAccountType() {
-        return accountType;
-    }
-
-    public BigDecimal getBalance() {
-        return balance;
-    }
-
-    public Date getCreatedDate() {
-        return createdDate;
-    }
-
-    public Date getExpiredDate() {
-        return expiredDate;
-    }
-
-    public long getOriginalBranchId() {
-        return originalBranchId;
-    }
-
-    public long getOwnerIdCard() {
-        return ownerIdCard;
-    }
-
-    public void setAccountNumber(long accountNumber) {
-        this.accountNumber = accountNumber;
-    }
-
-    public void setAccountType(char accountType) {
-        this.accountType = accountType;
-    }
-
-    public void setBalance(BigDecimal balance) {
-        this.balance = balance;
-    }
-
-    public void setCreatedDate(Date createdDate) {
-        this.createdDate = createdDate;
-    }
-
-    public void setExpiredDate(Date expiredDate) {
-        this.expiredDate = expiredDate;
-    }
-
-    public void setOriginalBranchId(long originalBranchId) {
-        this.originalBranchId = originalBranchId;
-    }
-
-    public void setOwnerIdCard(long ownerIdCard) {
-        this.ownerIdCard = ownerIdCard;
-    }
-
+    void setOwnerIdCard(long ownerIdCard);
 }
