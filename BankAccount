@@ -1,4 +1,4 @@
-public interface UserAccount {
+public interface BankAccount extends Serializable{
     public long getAccountNumber();
 
     public char getAccountType();
@@ -28,7 +28,8 @@ public interface UserAccount {
     public void setOwnerIdCard(long ownerIdCard);
 }
 
-public class CreditAccount implements UserAccount {
+public class CreditAccount implements BankAccount {
+    private static final long serialVersionUID = -5588051331748162386L;
     /**
      * Unique Card number.
      */
